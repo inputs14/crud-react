@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/crud-react/static/css/main.ce1d563c.chunk.css",
-    "main.js": "/crud-react/static/js/main.afacd6cb.chunk.js",
-    "main.js.map": "/crud-react/static/js/main.afacd6cb.chunk.js.map",
+    "main.js": "/crud-react/static/js/main.d1116f38.chunk.js",
+    "main.js.map": "/crud-react/static/js/main.d1116f38.chunk.js.map",
     "runtime-main.js": "/crud-react/static/js/runtime-main.15c943fe.js",
     "runtime-main.js.map": "/crud-react/static/js/runtime-main.15c943fe.js.map",
     "static/css/2.17e5ed98.chunk.css": "/crud-react/static/css/2.17e5ed98.chunk.css",
     "static/js/2.8ffff116.chunk.js": "/crud-react/static/js/2.8ffff116.chunk.js",
     "static/js/2.8ffff116.chunk.js.map": "/crud-react/static/js/2.8ffff116.chunk.js.map",
     "index.html": "/crud-react/index.html",
-    "precache-manifest.095c7287323d26a768ffccc2214fc67a.js": "/crud-react/precache-manifest.095c7287323d26a768ffccc2214fc67a.js",
+    "precache-manifest.02b99203666cd3fab3a669a2d04a3e79.js": "/crud-react/precache-manifest.02b99203666cd3fab3a669a2d04a3e79.js",
     "service-worker.js": "/crud-react/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/crud-react/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.ce1d563c.chunk.css.map": "/crud-react/static/css/main.ce1d563c.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.8ffff116.chunk.js",
     "static/css/main.ce1d563c.chunk.css",
-    "static/js/main.afacd6cb.chunk.js"
+    "static/js/main.d1116f38.chunk.js"
   ]
 }
