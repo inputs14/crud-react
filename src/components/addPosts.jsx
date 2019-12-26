@@ -3,6 +3,7 @@ import { FormGroup, FormGroupTextArea } from "./formGroup";
 import { connect } from "react-redux";
 
 class AddPost extends Component {
+  publishPost = () => {};
   render() {
     return (
       <div className="container">
@@ -24,7 +25,11 @@ class AddPost extends Component {
             labelText="Post Content"
             inputType="textarea"
           />
-          <button type="submit" className="btn btn-success">
+          <button
+            type="submit"
+            onClick={() => this.publishPost}
+            className="btn btn-success"
+          >
             Add
           </button>
           <button type="submit" className="btn btn-secondary">

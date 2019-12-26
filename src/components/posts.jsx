@@ -11,17 +11,17 @@ class Posts extends Component {
     });
   };
 
-  handleLike = (postId, value) => {
+  handleLike = (post, value) => {
     this.props.dispatch({
       type: LIKE_CHANGE,
-      payload: { postId, value }
+      payload: { post, value }
     });
   };
 
-  handleDislike = (postId, value) => {
+  handleDislike = (post, value) => {
     this.props.dispatch({
       type: DISLIKE_CHANGE,
-      payload: { postId, value }
+      payload: { post, value }
     });
   };
 
@@ -33,8 +33,8 @@ class Posts extends Component {
             key={p.id}
             post={p}
             onDelete={() => this.deletePost(p.id)}
-            onLike={value => this.handleLike(p.id, value)}
-            onDislike={value => this.handleDislike(p.id, value)}
+            onLike={value => this.handleLike(p, value)}
+            onDislike={value => this.handleDislike(p, value)}
           />
         ))}
       </div>

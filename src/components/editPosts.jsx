@@ -7,7 +7,7 @@ class EditPost extends Component {
   updatePost = PostId => {};
   render() {
     var getId = this.props.match.params.id;
-    var getPost = this.props.posts[getId];
+    var getPost = this.props.posts.find(c => c.id == getId);
     return (
       <div className="container">
         <br />
