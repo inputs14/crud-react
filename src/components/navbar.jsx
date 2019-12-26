@@ -19,17 +19,17 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/">
+              <Link to="/crud-react/">
                 <h4 className="nav-link">Posts</h4>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/add">
+              <Link to="/crud-react/add">
                 <h4 className="nav-link">Add</h4>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/">
+              <Link to="/crud-react/">
                 <h4 className="nav-link">Sort</h4>
               </Link>
             </li>

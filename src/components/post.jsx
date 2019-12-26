@@ -72,7 +72,7 @@ class Post extends Component {
               &nbsp;{post.dislikes}
             </button>
             <div className="float-right">
-              <Link to={"/post/edit/" + post.id}>
+              <Link to={"/crud-react/post/edit/" + post.id}>
                 <button type="button" className="btn btn-info">
                   Edit
                 </button>
