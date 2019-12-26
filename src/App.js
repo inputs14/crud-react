@@ -15,11 +15,11 @@ function App() {
     <React.Fragment>
       <Navbar />
       <Switch>
-        <Route path="/posts" component={Container} />
-        <Route path="/add" component={AddPost} />
-        <Route path="/post/edit/:id" component={EditPost} />
-        <Route path="/" exact component={Container} />
-        <Redirect to="/" />
+        <Route path="/crud-react/posts" component={Container} />
+        <Route path="/crud-react/add" component={AddPost} />
+        <Route path="/crud-react/post/edit/:id" component={EditPost} />
+        <Route path="/crud-react/" exact component={Container} />
+        <Redirect to="/crud-react/" />
       </Switch>
     </React.Fragment>
   );
